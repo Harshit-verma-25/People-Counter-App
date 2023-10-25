@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: orangered;
+}
+.container{
+    background-color: #fff;
+    margin: auto;
+    width: 30%;
+}
+#h1{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+#count{
+    margin-bottom: 3vh;
+}
+button{
+    border: 2px solid black;
+    font-size: 2vw;
+    padding: 1vw;
+    color: #fff;
+    margin-bottom: 1vh;
+    margin-right: 1vh;
+}
+#increment{
+    background-color: red;
+}
+#save{
+    background-color: chartreuse;
+}
+p{
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
